@@ -70,7 +70,7 @@ mongodb_systemlog_path: /var/log/mongodb/{{ mongodb_daemon_name }}.log   # Log f
 
 ## operationProfiling Options
 mongodb_operation_profiling_slow_op_threshold_ms: 100
-mongodb_operation_profiling_mode: off
+mongodb_operation_profiling_mode: "off"
 
 ## replication Options
 mongodb_replication_replset:                      # Enable replication <setname>[/<optionalseedhostlist>]
